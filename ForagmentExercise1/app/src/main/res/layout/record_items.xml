@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/record_items_Height"
+    android:gravity="center_vertical"
+    android:padding="10dp">
+
+    <!--显示车牌信息-->
+    <TextView
+        android:id="@+id/recordPlateNumber"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/transportationPresentTextSize"
+        tools:text="车牌"/>
+    <!--充值金额-->
+    <TextView
+        android:id="@+id/recordMoney"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/transportationPresentTextSize"
+        tools:text="Money"/>
+    <!--充值时间-->
+    <TextView
+        android:id="@+id/recordDateTime"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/transportationPresentTextSize"
+        tools:text="DateTime"/>
+</LinearLayout>

@@ -1,0 +1,31 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/navigationBarBackground</item>
+        <item name="colorPrimaryDark">@color/navigationBarBackground</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <!--登录界面输入框的统一样式-->
+    <style name="login_inputStyle">
+        <item name="android:layout_width">@dimen/login_inputBoxWidth</item>
+        <item name="android:layout_height">@dimen/login_inputBoxHeight</item>
+        <item name="android:background">@color/login_inputBoxBackgroundColor</item>
+        <item name="android:textColorHint">@color/login_inputBoxHintColor</item>
+        <item name="android:maxLines">1</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_margin">@dimen/login_universalMargin</item>
+        <item name="android:textSize">@dimen/login_inputBoxTextSize</item>
+        <item name="android:inputType">text</item>
+    </style>
+    <!--登录、注册界面按钮统一样式-->
+    <style name="login_registerButtonStyle">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:layout_margin">@dimen/login_universalMargin</item>
+        <item name="android:layout_height">@dimen/login_buttonsHeight</item>
+    </style>
+
+</resources>

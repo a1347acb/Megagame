@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+
+    <!--按钮通用-->
+    <color name="buttonBackgroundColor_No">#fff</color>
+    <color name="buttonBackgroundColor_Yes">#ACACAC</color>
+    <!--通用导航栏-->
+    <color name="navigationBarBackground">#226FD1</color>
+    <color name="navigationBarTextColor">#fff</color>
+
+    <!--登录界面背景色-->
+    <color name="login_backgroundColor">#9BE3F1</color>
+    <!--登录界面导航栏-->
+    <color name="login_navigation_barBackground">#03A9F4</color>
+    <color name="login_navigation_barTextColor">#fff</color>
+
+    <!--登录界面输入框-->
+    <color name="login_inputBoxBackgroundColor">#fff</color>
+    <color name="login_inputBoxHintColor">#666666</color>
+
+    <!--首页功能选择按钮的默认背景色-->
+    <color name="home_pageBacground">#8F8F8F</color>
+    <color name="home_pageTextColor">#000</color>
+    <!--首页功能按钮选择按的颜色-->
+    <color name="home_pageBackground_Y">#fff</color>
+    <color name="home_pageTextColor_Y">#000</color>
+
+    <!--充值窗口-->
+    <color name="rechargeFormTitleBackground">#797777</color>
+    <color name="rechargeFormTitleTextColor">#fff</color>
+
+    <!--当余额不足200时的子项背景色-->
+    <color name="rechargeFormItemNoBackgroundColor">#E98225</color>
+
+    <!--侧面滑动菜单栏-->
+    <color name="drawerLayoutBackgroundColor">#fff</color>
+    <!--公交查询界面-->
+    <!--当前公交信息显示栏背景色-->
+    <color name="transportationPresentBackground">#B1AEAE</color>
+
+    <!--环境指标界面-->
+    <color name="environment_Item_background">#1EC70A</color>
+    <color name="environment_Item_background_warn">#F30000</color>
+    <color name="environment_Item_Values_background">#fff</color>
+    <color name="environment_Item_Title_TextColor">#fff</color>
+</resources>

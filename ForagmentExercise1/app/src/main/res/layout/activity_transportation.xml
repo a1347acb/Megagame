@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activitys.Transportation">
+    <include layout="@layout/navigation_bar"/>
+    <androidx.drawerlayout.widget.DrawerLayout
+        android:id="@+id/leftMenu"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <!--当前公交车信息显示栏-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:background="@color/transportationPresentBackground">
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/transportationPresentMargin"/>
+                <!-- 显示几路公交车 -->
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/transportationPresentMargin">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="@dimen/transportationPresentTextSize"
+                        tools:text="901路"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="@dimen/transportationPresentTextSize"
+                        android:text="公交汽车"/>
+                </LinearLayout>
+                <!-- 显示公交车首末时间 -->
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/transportationPresentMargin">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="@dimen/transportationPresentTextSize"
+                        android:text="首："/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="@dimen/transportationPresentTextSize"
+                        tools:text="6:20"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="@dimen/transportationPresentTextSize"
+                        android:text="末："/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="@dimen/transportationPresentTextSize"
+                        tools:text="21:30"/>
+                </LinearLayout>
+                <!-- 显示公交承载能力 -->
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/transportationPresentMargin">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="@dimen/transportationPresentTextSize"
+                        android:text="当前承载能力："/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="@dimen/transportationPresentTextSize"
+                        tools:text="1221"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="@dimen/transportationPresentTextSize"
+                        android:text="人"/>
+                </LinearLayout>
+                <Button
+                    android:id="@+id/particulars"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="@dimen/transportationPresentTextSize"
+                    android:layout_margin="@dimen/transportationPresentMargin"
+                    android:background="@drawable/transportation_details_button_background"
+                    android:text="详情"/>
+            </LinearLayout>
+            <ListView
+                android:id="@+id/hospital"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"/>
+            <ListView
+                android:id="@+id/mansion"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+        </LinearLayout>
+        <include layout = "@layout/drawerlayout_layout"/>
+    </androidx.drawerlayout.widget.DrawerLayout>
+
+
+</LinearLayout>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/navigationBarHeight"
+    android:background="@color/navigationBarBackground">
+    <ImageView
+        android:id="@+id/navigationBarLeftImageTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="start|center_vertical"
+        android:src="@drawable/dicon"/>
+    <TextView
+        android:id="@+id/navigationBarCenterTextTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textColor="@color/navigationBarTextColor"
+        android:textSize="@dimen/textSize"
+        tools:text="导航栏"/>
+    <LinearLayout
+        android:id="@+id/navigationBarRightTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end|center_vertical">
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/dicon_2"/>
+        <TextView
+            android:id="@+id/navigationBarRightTextTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/navigationBarTextColor"
+            android:textSize="@dimen/textSize"
+            android:layout_gravity="center"
+            android:layout_marginRight="20dp"
+            android:text="网络设置"/>
+    </LinearLayout>
+
+</FrameLayout>

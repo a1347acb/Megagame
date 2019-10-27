@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--车辆充值界面视图文件-->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="@dimen/rechargeFormWidth"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:layout_width="@dimen/rechargeFormWidth"
+        android:layout_height="@dimen/rechargeFormTitleHeight"
+        android:gravity="center"
+        android:background="@color/rechargeFormTitleBackground"
+        android:textSize="@dimen/rechargeFormTitleTextSize"
+        android:textStyle="bold"
+        android:textColor="@color/rechargeFormTitleTextColor"
+        android:text="车辆充值"/>
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="@dimen/rechargeCarMessageWidth"
+        android:layout_height="@dimen/rechargeCarMessageHeight"
+        android:layout_gravity="center"
+        android:gravity="center">
+        <TextView
+            android:id="@+id/plateNumber"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/textSize"
+            android:minHeight="@dimen/recharge_view_PlateNumber_MinHeight"
+            android:text="车牌："/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/textSize"
+                android:text="充值金额："/>
+            <EditText
+                android:id="@+id/rechargeFormMoney"
+                android:layout_width="@dimen/recharge_view_EditText_Width"
+                android:layout_height="wrap_content"
+                android:background="@drawable/recharge_view_edittext"
+                android:textSize="@dimen/textSize"
+                android:padding="@dimen/recharge_view_EditText_Padding"
+                android:textCursorDrawable="@drawable/cursor_set"/>
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <Button
+            android:id="@+id/rechargeFormRecharge"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="@dimen/rechargeButtonHeight"
+            android:layout_margin="@dimen/rechargeButtonMargin"
+            android:textSize="@dimen/textSize"
+            android:text="充  值"/>
+        <Button
+            android:id="@+id/rechargeFormCancel"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="@dimen/rechargeButtonHeight"
+            android:layout_margin="@dimen/rechargeButtonMargin"
+            android:textSize="@dimen/textSize"
+            android:text="取  消"/>
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="pageButton">
+        <attr name="Text" format="string"></attr>
+        <attr name="pageBackground" format="color"></attr>
+        <attr name="pageTextColor" format="color"></attr>
+    </declare-styleable>
+</resources>

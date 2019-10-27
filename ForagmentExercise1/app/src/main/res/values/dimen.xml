@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--统一字体大小-->
+    <dimen name="textSize">24sp</dimen>
+    <!--通用导航栏-->
+    <dimen name="navigationBarHeight">58dp</dimen>
+    <!--登录界面导航栏-->
+    <dimen name="login_navigation_barPadding">10dp</dimen>
+    <dimen name="login_navigation_barTextSize">16dp</dimen>
+
+    <dimen name="login_universalMargin">10dp</dimen>
+    <!--登录界面输入框-->
+    <dimen name="login_inputBoxWidth">400dp</dimen>
+    <dimen name="login_inputBoxHeight">50dp</dimen>
+    <dimen name="login_inputBoxTextSize">14sp</dimen>
+
+    <!--登录界面按钮-->
+    <dimen name="login_buttonsHeight">60dp</dimen>
+
+    <!--首页-->
+    <!--首页按钮选项-->
+    <dimen name="home_pageWidth">120dp</dimen>
+    <dimen name="home_pageHeight">120dp</dimen>
+    <dimen name="home_pageMargin">10dp</dimen>
+
+    <!--用户管理界面子项-->
+    <dimen name="uidManageItemsHeight">100dp</dimen>
+    <dimen name="uidManageItemsTextSize">30sp</dimen>
+    <dimen name="uidManageItemsButtonWidth">200dp</dimen>
+    <dimen name="uidManageItemsButtonPadding">20dp</dimen>
+
+    <!--充值窗口-->
+    <dimen name="rechargeFormWidth">800dp</dimen>
+    <dimen name="rechargeFormTitleHeight">80dp</dimen>
+    <dimen name="rechargeFormTitleTextSize">24sp</dimen>
+    <dimen name="rechargeButtonMargin">30dp</dimen>
+    <dimen name="rechargeButtonHeight">60dp</dimen>
+    <dimen name="rechargeCarMessageWidth">600dp</dimen>
+    <dimen name="rechargeCarMessageHeight">400dp</dimen>
+    <dimen name="recharge_view_EditText_Width">300dp</dimen>
+    <dimen name="recharge_view_EditText_Padding">5dp</dimen>
+    <dimen name="recharge_view_PlateNumber_MinHeight">80dp</dimen>
+
+    <!--公交查询页面-->
+    <!--当前公交车信息显示栏-->
+    <dimen name="transportationPresentTextSize">24sp</dimen>
+    <dimen name="transportationPresentMargin">20dp</dimen>
+    <dimen name="transportationDetailsButtonRadius">20dp</dimen>
+
+    <!--公交信息详情界面-->
+    <dimen name="transportationParticularsFromWidth">600dp</dimen>
+    <dimen name="transportationParticularsFormHeight">500dp</dimen>
+    <dimen name="transportationParticularsFormTitleHeight">150dp</dimen>
+
+    <!--充值记录-->
+    <dimen name="record_items_Height">80dp</dimen>
+
+    <!--环境指标界面-->
+    <dimen name="environment_Items_height">200dp</dimen>
+    <dimen name="environment_Items_margin">30dp</dimen>
+    <dimen name="environment_Items_Values_width">80dp</dimen>
+    <dimen name="environment_Items_Values_height">80dp</dimen>
+    <dimen name="environment_Items_Values_margin">20dp</dimen>
+    <dimen name="environment_Items_Title_margin">10dp</dimen>
+    <dimen name="environment_Items_Title_TextSize">30sp</dimen>
+
+    <!--我的账户界面-->
+    <dimen name="myAccount_button_margin">20dp</dimen>
+    <dimen name="myAccount_textSize">40sp</dimen>
+</resources>
